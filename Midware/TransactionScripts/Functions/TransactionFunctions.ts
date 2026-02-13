@@ -1,1 +1,61 @@
-LyoqCiAqIEBhdXRob3IgTWlkd2FyZQogKiBAZGV2ZWxvcGVyIElnbmFjaW8gQS4KICogQGNvbnRhY3QgY29udGFjdEBtaWR3YXJlLm5ldAogKi8KCmltcG9ydCAqIGFzIGh0dHBzIGZyb20gIk4vaHR0cHMiOwppbXBvcnQgKiBhcyBzZWFyY2ggZnJvbSAiTi9zZWFyY2giOwppbXBvcnQgKiBhcyBsb2cgZnJvbSAiTi9sb2ciOwoKY29uc3QgcXVlcmllc0NhY2hlID0ge307CgpleHBvcnQgZnVuY3Rpb24gZ2V0Q3VzdG9tZXJNaW5pbXVtT3JkZXJBbW91bnQoY3VzdG9tZXJJZDogbnVtYmVyKTogbnVtYmVyIHsKICAgIGNvbnN0IGN1c3RvbWVyTG9va3VwID0gc2VhcmNoLmxvb2t1cEZpZWxkcyh7CiAgICAgICAgdHlwZTogc2VhcmNoLlR5cGUuQ1VTVE9NRVIsCiAgICAgICAgaWQ6IGN1c3RvbWVySWQsCiAgICAgICAgY29sdW1uczogWyJjdXN0ZW50aXR5X213X21pbmltdW1fb3JkZXJfYW1vdW50Il0sCiAgICB9KTsKCiAgICBjb25zdCBtaW5pbXVtT3JkZXJRdWFudGl0eSA9CiAgICAgICAgY3VzdG9tZXJMb29rdXAgJiYgY3VzdG9tZXJMb29rdXAuY3VzdGVudGl0eV9td19taW5pbXVtX29yZGVyX2Ftb3VudAogICAgICAgICAgICA/IE51bWJlcihjdXN0b21lckxvb2t1cC5jdXN0ZW50aXR5X213X21pbmltdW1fb3JkZXJfYW1vdW50KQogICAgICAgICAgICA6IGdldEdsb2JhbEN1c3RvbWVyTWluaW11bU9yZGVyQW1vdW50KCk7CgogICAgcmV0dXJuIG1pbmltdW1PcmRlclF1YW50aXR5Owp9CgpmdW5jdGlvbiBnZXRHbG9iYWxDdXN0b21lck1pbmltdW1PcmRlckFtb3VudCgpIHsKICAgIGNvbnN0IHJlc3BvbnNlID0gaHR0cHMucmVxdWVzdFN1aXRlbGV0KHsKICAgICAgICBzY3JpcHRJZDogImN1c3RvbXNjcmlwdF9td19jb21wX2luZm9fc3QiLAogICAgICAgIGRlcGxveW1lbnRJZDogImN1c3RvbWRlcGxveV9td19jb21wX2luZm9fc3RfZCIsCiAgICB9KTsKCiAgICBsb2cuZGVidWcoImdldEdsb2JhbEN1c3RvbWVyTWluaW11bU9yZGVyQW1vdW50IiwgcmVzcG9uc2UpOwoKICAgIGlmIChyZXNwb25zZSkgewogICAgICAgIHJldHVybiBOdW1iZXIocmVzcG9uc2UuYm9keSk7CiAgICB9CgogICAgcmV0dXJuIDA7Cn0KCmV4cG9ydCBmdW5jdGlvbiBjYWxjdWxhdGVNaW5pbXVtT3JkZXJBbW91bnQoc3ViVG90YWw6IG51bWJlciwgY3VzdG9tZXJNaW5pbXVtT3JkZXJBbW91bnQ6IG51bWJlciwgc3VyY2hhbmdlUGVyY2VudGFnZTogbnVtYmVyKSB7CiAgICByZXR1cm4gTWF0aC5yb3VuZCgoY3VzdG9tZXJNaW5pbXVtT3JkZXJBbW91bnQgLyAoMSArIHN1cmNoYW5nZVBlcmNlbnRhZ2UgLyAxMDApIC0gc3ViVG90YWwpICogMTAwKSAvIDEwMDsKfQoKZXhwb3J0IGZ1bmN0aW9uIGdldEVTdXJjaGFyZ2VQZXJjZW50YWdlT2ZUb3RhbCgpIHsKICAgIGNvbnN0IHNlYXJjaE9iaiA9IHNlYXJjaC5jcmVhdGUoewogICAgICAgIHR5cGU6IHNlYXJjaC5UeXBlLlNISVBfSVRFTSwKICAgICAgICBjb2x1bW5zOiBbInNoaXBwaW5ncmF0ZWFzcGVyY2VudG9mdG90YWwiXSwKICAgICAgICBmaWx0ZXJzOiBbWyJpdGVtaWQiLCBzZWFyY2guT3BlcmF0b3IuQ09OVEFJTlMsICJFLVN1cmNoYXJnZSJdXSwKICAgIH0pOwoKICAgIGNvbnN0IHJlc3VsdHMgPSBzZWFyY2hPYmoucnVuKCkuZ2V0UmFuZ2UoeyBzdGFydDogMCwgZW5kOiAxIH0pOwoKICAgIGlmIChyZXN1bHRzICYmIHJlc3VsdHMubGVuZ3RoID4gMCkgewogICAgICAgIHJldHVybiBOdW1iZXIocmVzdWx0c1swXS5nZXRWYWx1ZSgic2hpcHBpbmdyYXRlYXNwZXJjZW50b2Z0b3RhbCIpKTsKICAgIH0KCiAgICByZXR1cm4gMDsKfQo=
+/**
+ * @author Midware
+ * @developer Ignacio A.
+ * @contact contact@midware.net
+ */
+
+import * as https from "N/https";
+import * as search from "N/search";
+import * as log from "N/log";
+
+const queriesCache = {};
+
+export function getCustomerMinimumOrderAmount(customerId: number): number {
+    const customerLookup = search.lookupFields({
+        type: search.Type.CUSTOMER,
+        id: customerId,
+        columns: ["custentity_mw_minimum_order_amount"],
+    });
+
+    const minimumOrderQuantity =
+        customerLookup && customerLookup.custentity_mw_minimum_order_amount
+            ? Number(customerLookup.custentity_mw_minimum_order_amount)
+            : getGlobalCustomerMinimumOrderAmount();
+
+    return minimumOrderQuantity;
+}
+
+function getGlobalCustomerMinimumOrderAmount() {
+    const response = https.requestSuitelet({
+        scriptId: "customscript_mw_comp_info_st",
+        deploymentId: "customdeploy_mw_comp_info_st_d",
+    });
+
+    log.debug("getGlobalCustomerMinimumOrderAmount", response);
+
+    if (response) {
+        return Number(response.body);
+    }
+
+    return 0;
+}
+
+export function calculateMinimumOrderAmount(subTotal: number, customerMinimumOrderAmount: number, surchangePercentage: number) {
+    return Math.round((customerMinimumOrderAmount / (1 + surchangePercentage / 100) - subTotal) * 100) / 100;
+}
+
+export function getESurchargePercentageOfTotal() {
+    const searchObj = search.create({
+        type: search.Type.SHIP_ITEM,
+        columns: ["shippingrateaspercentoftotal"],
+        filters: [["itemid", search.Operator.CONTAINS, "E-Surcharge"]],
+    });
+
+    const results = searchObj.run().getRange({ start: 0, end: 1 });
+
+    if (results && results.length > 0) {
+        return Number(results[0].getValue("shippingrateaspercentoftotal"));
+    }
+
+    return 0;
+}

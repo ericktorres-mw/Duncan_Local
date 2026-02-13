@@ -1,1 +1,51 @@
-LyoqCiAqIEBhdXRob3IgTWlkd2FyZQogKiBAZGV2ZWxvcGVyIElnbmFjaW8gQS4KICogQGNvbnRhY3QgY29udGFjdEBtaWR3YXJlLm5ldAogKi8KZGVmaW5lKFsicmVxdWlyZSIsICJleHBvcnRzIiwgIk4vaHR0cHMiLCAiTi9zZWFyY2giLCAiTi9sb2ciXSwgZnVuY3Rpb24gKHJlcXVpcmUsIGV4cG9ydHMsIGh0dHBzLCBzZWFyY2gsIGxvZykgewogICAgInVzZSBzdHJpY3QiOwogICAgT2JqZWN0LmRlZmluZVByb3BlcnR5KGV4cG9ydHMsICJfX2VzTW9kdWxlIiwgeyB2YWx1ZTogdHJ1ZSB9KTsKICAgIGV4cG9ydHMuZ2V0RVN1cmNoYXJnZVBlcmNlbnRhZ2VPZlRvdGFsID0gZXhwb3J0cy5jYWxjdWxhdGVNaW5pbXVtT3JkZXJBbW91bnQgPSBleHBvcnRzLmdldEN1c3RvbWVyTWluaW11bU9yZGVyQW1vdW50ID0gdm9pZCAwOwogICAgdmFyIHF1ZXJpZXNDYWNoZSA9IHt9OwogICAgZnVuY3Rpb24gZ2V0Q3VzdG9tZXJNaW5pbXVtT3JkZXJBbW91bnQoY3VzdG9tZXJJZCkgewogICAgICAgIHZhciBjdXN0b21lckxvb2t1cCA9IHNlYXJjaC5sb29rdXBGaWVsZHMoewogICAgICAgICAgICB0eXBlOiBzZWFyY2guVHlwZS5DVVNUT01FUiwKICAgICAgICAgICAgaWQ6IGN1c3RvbWVySWQsCiAgICAgICAgICAgIGNvbHVtbnM6IFsiY3VzdGVudGl0eV9td19taW5pbXVtX29yZGVyX2Ftb3VudCJdLAogICAgICAgIH0pOwogICAgICAgIHZhciBtaW5pbXVtT3JkZXJRdWFudGl0eSA9IGN1c3RvbWVyTG9va3VwICYmIGN1c3RvbWVyTG9va3VwLmN1c3RlbnRpdHlfbXdfbWluaW11bV9vcmRlcl9hbW91bnQKICAgICAgICAgICAgPyBOdW1iZXIoY3VzdG9tZXJMb29rdXAuY3VzdGVudGl0eV9td19taW5pbXVtX29yZGVyX2Ftb3VudCkKICAgICAgICAgICAgOiBnZXRHbG9iYWxDdXN0b21lck1pbmltdW1PcmRlckFtb3VudCgpOwogICAgICAgIHJldHVybiBtaW5pbXVtT3JkZXJRdWFudGl0eTsKICAgIH0KICAgIGV4cG9ydHMuZ2V0Q3VzdG9tZXJNaW5pbXVtT3JkZXJBbW91bnQgPSBnZXRDdXN0b21lck1pbmltdW1PcmRlckFtb3VudDsKICAgIGZ1bmN0aW9uIGdldEdsb2JhbEN1c3RvbWVyTWluaW11bU9yZGVyQW1vdW50KCkgewogICAgICAgIHZhciByZXNwb25zZSA9IGh0dHBzLnJlcXVlc3RTdWl0ZWxldCh7CiAgICAgICAgICAgIHNjcmlwdElkOiAiY3VzdG9tc2NyaXB0X213X2NvbXBfaW5mb19zdCIsCiAgICAgICAgICAgIGRlcGxveW1lbnRJZDogImN1c3RvbWRlcGxveV9td19jb21wX2luZm9fc3RfZCIsCiAgICAgICAgfSk7CiAgICAgICAgbG9nLmRlYnVnKCJnZXRHbG9iYWxDdXN0b21lck1pbmltdW1PcmRlckFtb3VudCIsIHJlc3BvbnNlKTsKICAgICAgICBpZiAocmVzcG9uc2UpIHsKICAgICAgICAgICAgcmV0dXJuIE51bWJlcihyZXNwb25zZS5ib2R5KTsKICAgICAgICB9CiAgICAgICAgcmV0dXJuIDA7CiAgICB9CiAgICBmdW5jdGlvbiBjYWxjdWxhdGVNaW5pbXVtT3JkZXJBbW91bnQoc3ViVG90YWwsIGN1c3RvbWVyTWluaW11bU9yZGVyQW1vdW50LCBzdXJjaGFuZ2VQZXJjZW50YWdlKSB7CiAgICAgICAgcmV0dXJuIE1hdGgucm91bmQoKGN1c3RvbWVyTWluaW11bU9yZGVyQW1vdW50IC8gKDEgKyBzdXJjaGFuZ2VQZXJjZW50YWdlIC8gMTAwKSAtIHN1YlRvdGFsKSAqIDEwMCkgLyAxMDA7CiAgICB9CiAgICBleHBvcnRzLmNhbGN1bGF0ZU1pbmltdW1PcmRlckFtb3VudCA9IGNhbGN1bGF0ZU1pbmltdW1PcmRlckFtb3VudDsKICAgIGZ1bmN0aW9uIGdldEVTdXJjaGFyZ2VQZXJjZW50YWdlT2ZUb3RhbCgpIHsKICAgICAgICB2YXIgc2VhcmNoT2JqID0gc2VhcmNoLmNyZWF0ZSh7CiAgICAgICAgICAgIHR5cGU6IHNlYXJjaC5UeXBlLlNISVBfSVRFTSwKICAgICAgICAgICAgY29sdW1uczogWyJzaGlwcGluZ3JhdGVhc3BlcmNlbnRvZnRvdGFsIl0sCiAgICAgICAgICAgIGZpbHRlcnM6IFtbIml0ZW1pZCIsIHNlYXJjaC5PcGVyYXRvci5DT05UQUlOUywgIkUtU3VyY2hhcmdlIl1dLAogICAgICAgIH0pOwogICAgICAgIHZhciByZXN1bHRzID0gc2VhcmNoT2JqLnJ1bigpLmdldFJhbmdlKHsgc3RhcnQ6IDAsIGVuZDogMSB9KTsKICAgICAgICBpZiAocmVzdWx0cyAmJiByZXN1bHRzLmxlbmd0aCA+IDApIHsKICAgICAgICAgICAgcmV0dXJuIE51bWJlcihyZXN1bHRzWzBdLmdldFZhbHVlKCJzaGlwcGluZ3JhdGVhc3BlcmNlbnRvZnRvdGFsIikpOwogICAgICAgIH0KICAgICAgICByZXR1cm4gMDsKICAgIH0KICAgIGV4cG9ydHMuZ2V0RVN1cmNoYXJnZVBlcmNlbnRhZ2VPZlRvdGFsID0gZ2V0RVN1cmNoYXJnZVBlcmNlbnRhZ2VPZlRvdGFsOwp9KTsK
+/**
+ * @author Midware
+ * @developer Ignacio A.
+ * @contact contact@midware.net
+ */
+define(["require", "exports", "N/https", "N/search", "N/log"], function (require, exports, https, search, log) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    exports.getESurchargePercentageOfTotal = exports.calculateMinimumOrderAmount = exports.getCustomerMinimumOrderAmount = void 0;
+    var queriesCache = {};
+    function getCustomerMinimumOrderAmount(customerId) {
+        var customerLookup = search.lookupFields({
+            type: search.Type.CUSTOMER,
+            id: customerId,
+            columns: ["custentity_mw_minimum_order_amount"],
+        });
+        var minimumOrderQuantity = customerLookup && customerLookup.custentity_mw_minimum_order_amount
+            ? Number(customerLookup.custentity_mw_minimum_order_amount)
+            : getGlobalCustomerMinimumOrderAmount();
+        return minimumOrderQuantity;
+    }
+    exports.getCustomerMinimumOrderAmount = getCustomerMinimumOrderAmount;
+    function getGlobalCustomerMinimumOrderAmount() {
+        var response = https.requestSuitelet({
+            scriptId: "customscript_mw_comp_info_st",
+            deploymentId: "customdeploy_mw_comp_info_st_d",
+        });
+        log.debug("getGlobalCustomerMinimumOrderAmount", response);
+        if (response) {
+            return Number(response.body);
+        }
+        return 0;
+    }
+    function calculateMinimumOrderAmount(subTotal, customerMinimumOrderAmount, surchangePercentage) {
+        return Math.round((customerMinimumOrderAmount / (1 + surchangePercentage / 100) - subTotal) * 100) / 100;
+    }
+    exports.calculateMinimumOrderAmount = calculateMinimumOrderAmount;
+    function getESurchargePercentageOfTotal() {
+        var searchObj = search.create({
+            type: search.Type.SHIP_ITEM,
+            columns: ["shippingrateaspercentoftotal"],
+            filters: [["itemid", search.Operator.CONTAINS, "E-Surcharge"]],
+        });
+        var results = searchObj.run().getRange({ start: 0, end: 1 });
+        if (results && results.length > 0) {
+            return Number(results[0].getValue("shippingrateaspercentoftotal"));
+        }
+        return 0;
+    }
+    exports.getESurchargePercentageOfTotal = getESurchargePercentageOfTotal;
+});
