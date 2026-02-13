@@ -1,1 +1,241 @@
-LyoqCiAqIEBhdXRob3IgTWlkd2FyZQogKiBAZGV2ZWxvcGVyIElnbmFjaW8gQS4KICogQGNvbnRhY3QgY29udGFjdEBtaWR3YXJlLm5ldAogKi8KZGVmaW5lKFsicmVxdWlyZSIsICJleHBvcnRzIiwgIk4vZmlsZSJdLCBmdW5jdGlvbiAocmVxdWlyZSwgZXhwb3J0cywgZmlsZSkgewogICAgInVzZSBzdHJpY3QiOwogICAgdmFyIF9hOwogICAgT2JqZWN0LmRlZmluZVByb3BlcnR5KGV4cG9ydHMsICJfX2VzTW9kdWxlIiwgeyB2YWx1ZTogdHJ1ZSB9KTsKICAgIGV4cG9ydHMuRklMRVNfVFlQRVNfTUFQUElORyA9IHZvaWQgMDsKICAgIGV4cG9ydHMuRklMRVNfVFlQRVNfTUFQUElORyA9IChfYSA9IHt9LAogICAgICAgIF9hW2ZpbGUuVHlwZS5BUFBDQUNIRV0gPSB7CiAgICAgICAgICAgIC8vIEFwcENhY2hlIE1hbmlmZXN0IEZpbGUKICAgICAgICAgICAgIi5hcHBjYWNoZSI6IDEsCiAgICAgICAgfSwKICAgICAgICBfYVtmaWxlLlR5cGUuQVVUT0NBRF0gPSB7CiAgICAgICAgICAgIC8vIEF1dG9DYWQKICAgICAgICAgICAgIi5kd2ciOiAxLAogICAgICAgICAgICAiLmR3ZiI6IDEsCiAgICAgICAgICAgICIuZHhmIjogMSwKICAgICAgICAgICAgIi5kd3QiOiAxLAogICAgICAgICAgICAiLnBsdCI6IDEsCiAgICAgICAgfSwKICAgICAgICBfYVtmaWxlLlR5cGUuQk1QSU1BR0VdID0gewogICAgICAgICAgICAvLyBCTVAgSW1hZ2UKICAgICAgICAgICAgIi5ibXAiOiAxLAogICAgICAgIH0sCiAgICAgICAgX2FbZmlsZS5UeXBlLkNFUlRJRklDQVRFXSA9IHsKICAgICAgICAgICAgLy8gQ2VydGlmaWNhdGUgRmlsZQogICAgICAgICAgICAiLmNlciI6IDEsCiAgICAgICAgICAgICIuY3JsIjogMSwKICAgICAgICAgICAgIi5jcnQiOiAxLAogICAgICAgICAgICAiLmNzciI6IDEsCiAgICAgICAgICAgICIuZGVyIjogMSwKICAgICAgICAgICAgIi5rZXkiOiAxLAogICAgICAgICAgICAiLnAxMCI6IDEsCiAgICAgICAgICAgICIucDEyIjogMSwKICAgICAgICAgICAgIi5wN2IiOiAxLAogICAgICAgICAgICAiLnA3YyI6IDEsCiAgICAgICAgICAgICIucDdyIjogMSwKICAgICAgICAgICAgIi5wOCI6IDEsCiAgICAgICAgICAgICIucGVtIjogMSwKICAgICAgICAgICAgIi5wZngiOiAxLAogICAgICAgICAgICAiLnNwYyI6IDEsCiAgICAgICAgfSwKICAgICAgICAvKltmaWxlLlR5cGUuY2ZdOiB7CiAgICAgICAgICAgIC8vIENGRiBGaWxlCiAgICAgICAgICAgICIuY2ZmIjogMSwKICAgICAgICB9LAogICAgICAgICJDb21wcmVzc2VkIFRhciBGaWxlIjogewogICAgICAgICAgICAiLnRneiI6IDEsCiAgICAgICAgICAgICIudGJ6IjogMSwKICAgICAgICB9LCovCiAgICAgICAgX2FbZmlsZS5UeXBlLkNPTkZJR10gPSB7CiAgICAgICAgICAgIC8vIENvbmZpZ3VyYXRpb24gRmlsZQogICAgICAgICAgICAiLmNvbmZpZyI6IDEsCiAgICAgICAgfSwKICAgICAgICBfYVtmaWxlLlR5cGUuQ1NWXSA9IHsKICAgICAgICAgICAgIi5jc3YiOiAxLAogICAgICAgIH0sCiAgICAgICAgLyoiRU9UIEZpbGUiOiB7CiAgICAgICAgICAgICIuZW90IjogMSwKICAgICAgICB9LCovCiAgICAgICAgX2FbZmlsZS5UeXBlLkVYQ0VMXSA9IHsKICAgICAgICAgICAgLy8gIkV4Y2VsIEZpbGUiCiAgICAgICAgICAgICIueGxzIjogMSwKICAgICAgICAgICAgIi54bHN4IjogMSwKICAgICAgICB9LAogICAgICAgIF9hW2ZpbGUuVHlwZS5GTEFTSF0gPSB7CiAgICAgICAgICAgIC8vIEZsYXNoIEFuaW1hdGlvbgogICAgICAgICAgICAiLnN3ZiI6IDEsCiAgICAgICAgfSwKICAgICAgICBfYVtmaWxlLlR5cGUuRlJFRU1BUktFUl0gPSB7CiAgICAgICAgICAgIC8vIEZyZWVNYXJrZXIgVGVtcGxhdGUgRmlsZQogICAgICAgICAgICAiLmZ0bCI6IDEsCiAgICAgICAgfSwKICAgICAgICBfYVtmaWxlLlR5cGUuR0lGSU1BR0VdID0gewogICAgICAgICAgICAvLyBHSUYgSW1hZ2UKICAgICAgICAgICAgIi5naWYiOiAxLAogICAgICAgIH0sCiAgICAgICAgX2FbZmlsZS5UeXBlLkdaSVBdID0gewogICAgICAgICAgICAvLyBHTlUgWmlwIEZpbGUKICAgICAgICAgICAgIi5neiI6IDEsCiAgICAgICAgfSwKICAgICAgICBfYVtmaWxlLlR5cGUuSFRNTERPQ10gPSB7CiAgICAgICAgICAgIC8vIEhUTUwgRmlsZQogICAgICAgICAgICAiLmh0bWwiOiAxLAogICAgICAgICAgICAiLmh0bSI6IDEsCiAgICAgICAgICAgICIuc2h0bWwiOiAxLAogICAgICAgIH0sCiAgICAgICAgX2FbZmlsZS5UeXBlLklDT05dID0gewogICAgICAgICAgICAvLyBJY29uIEltYWdlCiAgICAgICAgICAgICIuaWNvIjogMSwKICAgICAgICAgICAgIi5pY29uIjogMSwKICAgICAgICB9LAogICAgICAgIF9hW2ZpbGUuVHlwZS5KQVZBU0NSSVBUXSA9IHsKICAgICAgICAgICAgLy8gSmF2YVNjcmlwdCBGaWxlCiAgICAgICAgICAgICIuanMiOiAxLAogICAgICAgICAgICAvLyIuanNvbiI6IDEsIC8vID8/PwogICAgICAgIH0sCiAgICAgICAgX2FbZmlsZS5UeXBlLkpQR0lNQUdFXSA9IHsKICAgICAgICAgICAgLy8gSlBFRyBJbWFnZQogICAgICAgICAgICAiLmpwZyI6IDEsCiAgICAgICAgICAgICIuanBlZyI6IDEsCiAgICAgICAgfSwKICAgICAgICBfYVtmaWxlLlR5cGUuSlNPTl0gPSB7CiAgICAgICAgICAgIC8vIEpTT04gUmVzcG9uc2UKICAgICAgICAgICAgIi5qc29uIjogMSwgLy8gVGhpcyB3YXMgbm90IGhlcmUKICAgICAgICB9LAogICAgICAgIC8qIkxaSCBGaWxlIjogewogICAgICAgICAgICAiLmx6aCI6IDEsCiAgICAgICAgICAgICIubGhhIjogMSwKICAgICAgICB9LCovCiAgICAgICAgX2FbZmlsZS5UeXBlLk1FU1NBR0VSRkNdID0gewogICAgICAgICAgICAvLyBNZXNzYWdlIFJGQwogICAgICAgICAgICAiLmVtbCI6IDEsCiAgICAgICAgfSwKICAgICAgICBfYVtmaWxlLlR5cGUuTVAzXSA9IHsKICAgICAgICAgICAgLy8gTVAzIEF1ZGlvCiAgICAgICAgICAgICIubXAzIjogMSwKICAgICAgICB9LAogICAgICAgIF9hW2ZpbGUuVHlwZS5NUEVHTU9WSUVdID0gewogICAgICAgICAgICAvLyBNUEVHIFZpZGVvCiAgICAgICAgICAgICIubXBnIjogMSwKICAgICAgICAgICAgIi5tcGVnIjogMSwKICAgICAgICB9LAogICAgICAgIC8qIk9URiBGaWxlIjogewogICAgICAgICAgICAiLm90ZiI6IDEsCiAgICAgICAgfSwKICAgICAgICAiT3RoZXIgQmluYXJ5IEZpbGUiOiB7CiAgICAgICAgICAgICIuYmluIjogMSwKICAgICAgICB9LCovCiAgICAgICAgX2FbZmlsZS5UeXBlLlBERl0gPSB7CiAgICAgICAgICAgIC8vIFBERiBGaWxlCiAgICAgICAgICAgICIucGRmIjogMSwKICAgICAgICB9LAogICAgICAgIF9hW2ZpbGUuVHlwZS5QSlBHSU1BR0VdID0gewogICAgICAgICAgICAvLyBQSlBFRyBJbWFnZQogICAgICAgICAgICAiLnBqcGVnIjogMSwKICAgICAgICB9LAogICAgICAgIF9hW2ZpbGUuVHlwZS5QTEFJTlRFWFRdID0gewogICAgICAgICAgICAvLyBUZXh0IEZpbGUKICAgICAgICAgICAgIi50eHQiOiAxLAogICAgICAgICAgICAiLmNzcyI6IDEsCiAgICAgICAgICAgICIuaHRtIjogMSwKICAgICAgICAgICAgIi5odG1sIjogMSwKICAgICAgICAgICAgIi54bWwiOiAxLAogICAgICAgICAgICAiLmh0YyI6IDEsCiAgICAgICAgICAgICIuc3FsIjogMSwKICAgICAgICAgICAgIi5jc3YiOiAxLAogICAgICAgICAgICAiLmxvZyI6IDEsCiAgICAgICAgICAgICIucHJuIjogMSwgLy9Gcm9tICJQbGFpbiBUZXh0IEZpbGUiCiAgICAgICAgICAgICIudHMiOiAxLAogICAgICAgIH0sCiAgICAgICAgX2FbZmlsZS5UeXBlLlBOR0lNQUdFXSA9IHsKICAgICAgICAgICAgLy8gUE5HIEltYWdlCiAgICAgICAgICAgICIucG5nIjogMSwKICAgICAgICB9LAogICAgICAgIF9hW2ZpbGUuVHlwZS5QT1NUU0NSSVBUXSA9IHsKICAgICAgICAgICAgLy8gUG9zdFNjcmlwdCBGaWxlCiAgICAgICAgICAgICIucHMiOiAxLAogICAgICAgICAgICAiLmVwcyI6IDEsCiAgICAgICAgfSwKICAgICAgICBfYVtmaWxlLlR5cGUuUE9XRVJQT0lOVF0gPSB7CiAgICAgICAgICAgIC8vIFBvd2VyUG9pbnQgRmlsZQogICAgICAgICAgICAiLnBwdCI6IDEsCiAgICAgICAgICAgICIucHB0eCI6IDEsCiAgICAgICAgfSwKICAgICAgICBfYVtmaWxlLlR5cGUuTVNQUk9KRUNUXSA9IHsKICAgICAgICAgICAgLy8gUHJvamVjdCBGaWxlCiAgICAgICAgICAgICIubXBwIjogMSwKICAgICAgICB9LAogICAgICAgIF9hW2ZpbGUuVHlwZS5RVUlDS1RJTUVdID0gewogICAgICAgICAgICAvLyBRdWlja1RpbWUgVmlkZW8KICAgICAgICAgICAgIi5tb3YiOiAxLAogICAgICAgIH0sCiAgICAgICAgX2FbZmlsZS5UeXBlLlJURl0gPSB7CiAgICAgICAgICAgIC8vIFJURiBGaWxlCiAgICAgICAgICAgICIucnRmIjogMSwKICAgICAgICB9LAogICAgICAgIF9hW2ZpbGUuVHlwZS5TTVNdID0gewogICAgICAgICAgICAvLyBTTVMgRmlsZQogICAgICAgICAgICAiLnNtcyI6IDEsCiAgICAgICAgfSwKICAgICAgICBfYVtmaWxlLlR5cGUuU1RZTEVTSEVFVF0gPSB7CiAgICAgICAgICAgIC8vIENTUyBGaWxlIC8gU3R5bGVzaGVldAogICAgICAgICAgICAiLmNzcyI6IDEsCiAgICAgICAgfSwKICAgICAgICBfYVtmaWxlLlR5cGUuU0NTU10gPSB7CiAgICAgICAgICAgIC8vIFN1aXRlU2NyaXB0IEZpbGUKICAgICAgICAgICAgIi5zcyI6IDEsCiAgICAgICAgfSwKICAgICAgICAvKiJTdWl0ZVNjcmlwdCBQYWdlIjogewogICAgICAgICAgICAiLnNzcCI6IDEsCiAgICAgICAgfSwqLwogICAgICAgIF9hW2ZpbGUuVHlwZS5TVkddID0gewogICAgICAgICAgICAvLyBTVkcgSW1hZ2UKICAgICAgICAgICAgIi5zdmciOiAxLAogICAgICAgIH0sCiAgICAgICAgX2FbZmlsZS5UeXBlLlRBUl0gPSB7CiAgICAgICAgICAgIC8vIFRhciBGaWxlCiAgICAgICAgICAgICIudGFyIjogMSwKICAgICAgICB9LAogICAgICAgIF9hW2ZpbGUuVHlwZS5USUZGSU1BR0VdID0gewogICAgICAgICAgICAvLyBUSUZGIEltYWdlCiAgICAgICAgICAgICIudGlmZiI6IDEsCiAgICAgICAgICAgICIudGlmIjogMSwKICAgICAgICB9LAogICAgICAgIC8qIlRURiBGaWxlIjogeyAvLyBUVEYgRmlsZQogICAgICAgICAgICAiLnR0ZiI6IDEsCiAgICAgICAgfSwqLwogICAgICAgIF9hW2ZpbGUuVHlwZS5WSVNJT10gPSB7CiAgICAgICAgICAgIC8vIFZpc2lvIEZpbGUKICAgICAgICAgICAgIi52c2QiOiAxLAogICAgICAgIH0sCiAgICAgICAgLyoiV09GRiBGaWxlIjogewogICAgICAgICAgICAiLndvZmYiOiAxLAogICAgICAgIH0sCiAgICAgICAgIldPRkYyIEZpbGUiOiB7CiAgICAgICAgICAgICIud29mZjIiOiAxLAogICAgICAgIH0sKi8KICAgICAgICBfYVtmaWxlLlR5cGUuV09SRF0gPSB7CiAgICAgICAgICAgIC8vIFdvcmQgRmlsZQogICAgICAgICAgICAiLmRvYyI6IDEsCiAgICAgICAgICAgICIuZG90IjogMSwKICAgICAgICAgICAgIi5kb2N4IjogMSwKICAgICAgICB9LAogICAgICAgIF9hW2ZpbGUuVHlwZS5YTUxET0NdID0gewogICAgICAgICAgICAvLyBYTUwgRmlsZQogICAgICAgICAgICAiLnhtbCI6IDEsCiAgICAgICAgfSwKICAgICAgICBfYVtmaWxlLlR5cGUuWFNEXSA9IHsKICAgICAgICAgICAgLy8gWFNEIEZpbGUKICAgICAgICAgICAgIi54c2QiOiAxLAogICAgICAgIH0sCiAgICAgICAgX2FbZmlsZS5UeXBlLlpJUF0gPSB7CiAgICAgICAgICAgIC8vIFppcCBGaWxlCiAgICAgICAgICAgICIuemlwIjogMSwKICAgICAgICB9LAogICAgICAgIF9hKTsKfSk7Cg==
+/**
+ * @author Midware
+ * @developer Ignacio A.
+ * @contact contact@midware.net
+ */
+define(["require", "exports", "N/file"], function (require, exports, file) {
+    "use strict";
+    var _a;
+    Object.defineProperty(exports, "__esModule", { value: true });
+    exports.FILES_TYPES_MAPPING = void 0;
+    exports.FILES_TYPES_MAPPING = (_a = {},
+        _a[file.Type.APPCACHE] = {
+            // AppCache Manifest File
+            ".appcache": 1,
+        },
+        _a[file.Type.AUTOCAD] = {
+            // AutoCad
+            ".dwg": 1,
+            ".dwf": 1,
+            ".dxf": 1,
+            ".dwt": 1,
+            ".plt": 1,
+        },
+        _a[file.Type.BMPIMAGE] = {
+            // BMP Image
+            ".bmp": 1,
+        },
+        _a[file.Type.CERTIFICATE] = {
+            // Certificate File
+            ".cer": 1,
+            ".crl": 1,
+            ".crt": 1,
+            ".csr": 1,
+            ".der": 1,
+            ".key": 1,
+            ".p10": 1,
+            ".p12": 1,
+            ".p7b": 1,
+            ".p7c": 1,
+            ".p7r": 1,
+            ".p8": 1,
+            ".pem": 1,
+            ".pfx": 1,
+            ".spc": 1,
+        },
+        /*[file.Type.cf]: {
+            // CFF File
+            ".cff": 1,
+        },
+        "Compressed Tar File": {
+            ".tgz": 1,
+            ".tbz": 1,
+        },*/
+        _a[file.Type.CONFIG] = {
+            // Configuration File
+            ".config": 1,
+        },
+        _a[file.Type.CSV] = {
+            ".csv": 1,
+        },
+        /*"EOT File": {
+            ".eot": 1,
+        },*/
+        _a[file.Type.EXCEL] = {
+            // "Excel File"
+            ".xls": 1,
+            ".xlsx": 1,
+        },
+        _a[file.Type.FLASH] = {
+            // Flash Animation
+            ".swf": 1,
+        },
+        _a[file.Type.FREEMARKER] = {
+            // FreeMarker Template File
+            ".ftl": 1,
+        },
+        _a[file.Type.GIFIMAGE] = {
+            // GIF Image
+            ".gif": 1,
+        },
+        _a[file.Type.GZIP] = {
+            // GNU Zip File
+            ".gz": 1,
+        },
+        _a[file.Type.HTMLDOC] = {
+            // HTML File
+            ".html": 1,
+            ".htm": 1,
+            ".shtml": 1,
+        },
+        _a[file.Type.ICON] = {
+            // Icon Image
+            ".ico": 1,
+            ".icon": 1,
+        },
+        _a[file.Type.JAVASCRIPT] = {
+            // JavaScript File
+            ".js": 1,
+            //".json": 1, // ???
+        },
+        _a[file.Type.JPGIMAGE] = {
+            // JPEG Image
+            ".jpg": 1,
+            ".jpeg": 1,
+        },
+        _a[file.Type.JSON] = {
+            // JSON Response
+            ".json": 1, // This was not here
+        },
+        /*"LZH File": {
+            ".lzh": 1,
+            ".lha": 1,
+        },*/
+        _a[file.Type.MESSAGERFC] = {
+            // Message RFC
+            ".eml": 1,
+        },
+        _a[file.Type.MP3] = {
+            // MP3 Audio
+            ".mp3": 1,
+        },
+        _a[file.Type.MPEGMOVIE] = {
+            // MPEG Video
+            ".mpg": 1,
+            ".mpeg": 1,
+        },
+        /*"OTF File": {
+            ".otf": 1,
+        },
+        "Other Binary File": {
+            ".bin": 1,
+        },*/
+        _a[file.Type.PDF] = {
+            // PDF File
+            ".pdf": 1,
+        },
+        _a[file.Type.PJPGIMAGE] = {
+            // PJPEG Image
+            ".pjpeg": 1,
+        },
+        _a[file.Type.PLAINTEXT] = {
+            // Text File
+            ".txt": 1,
+            ".css": 1,
+            ".htm": 1,
+            ".html": 1,
+            ".xml": 1,
+            ".htc": 1,
+            ".sql": 1,
+            ".csv": 1,
+            ".log": 1,
+            ".prn": 1, //From "Plain Text File"
+            ".ts": 1,
+        },
+        _a[file.Type.PNGIMAGE] = {
+            // PNG Image
+            ".png": 1,
+        },
+        _a[file.Type.POSTSCRIPT] = {
+            // PostScript File
+            ".ps": 1,
+            ".eps": 1,
+        },
+        _a[file.Type.POWERPOINT] = {
+            // PowerPoint File
+            ".ppt": 1,
+            ".pptx": 1,
+        },
+        _a[file.Type.MSPROJECT] = {
+            // Project File
+            ".mpp": 1,
+        },
+        _a[file.Type.QUICKTIME] = {
+            // QuickTime Video
+            ".mov": 1,
+        },
+        _a[file.Type.RTF] = {
+            // RTF File
+            ".rtf": 1,
+        },
+        _a[file.Type.SMS] = {
+            // SMS File
+            ".sms": 1,
+        },
+        _a[file.Type.STYLESHEET] = {
+            // CSS File / Stylesheet
+            ".css": 1,
+        },
+        _a[file.Type.SCSS] = {
+            // SuiteScript File
+            ".ss": 1,
+        },
+        /*"SuiteScript Page": {
+            ".ssp": 1,
+        },*/
+        _a[file.Type.SVG] = {
+            // SVG Image
+            ".svg": 1,
+        },
+        _a[file.Type.TAR] = {
+            // Tar File
+            ".tar": 1,
+        },
+        _a[file.Type.TIFFIMAGE] = {
+            // TIFF Image
+            ".tiff": 1,
+            ".tif": 1,
+        },
+        /*"TTF File": { // TTF File
+            ".ttf": 1,
+        },*/
+        _a[file.Type.VISIO] = {
+            // Visio File
+            ".vsd": 1,
+        },
+        /*"WOFF File": {
+            ".woff": 1,
+        },
+        "WOFF2 File": {
+            ".woff2": 1,
+        },*/
+        _a[file.Type.WORD] = {
+            // Word File
+            ".doc": 1,
+            ".dot": 1,
+            ".docx": 1,
+        },
+        _a[file.Type.XMLDOC] = {
+            // XML File
+            ".xml": 1,
+        },
+        _a[file.Type.XSD] = {
+            // XSD File
+            ".xsd": 1,
+        },
+        _a[file.Type.ZIP] = {
+            // Zip File
+            ".zip": 1,
+        },
+        _a);
+});

@@ -1,1 +1,89 @@
-LyoqCiAqIEBOQXBpVmVyc2lvbiAyLjEKICogQE5TY3JpcHRUeXBlIFVzZXJFdmVudFNjcmlwdAogKiBATk1vZHVsZVNjb3BlIFNhbWVBY2NvdW50CiAqIEBhdXRob3IgTWlkd2FyZQogKiBAZGV2ZWxvcGVyIElnbmFjaW8gQS4KICogQGNvbnRhY3QgY29udGFjdEBtaWR3YXJlLm5ldAogKi8KCmltcG9ydCAqIGFzIGxvZyBmcm9tICJOL2xvZyI7CmltcG9ydCAqIGFzIHJlY29yZCBmcm9tICJOL3JlY29yZCI7CgppbXBvcnQgeyBFbnRyeVBvaW50cyB9IGZyb20gIk4vdHlwZXMiOwppbXBvcnQgeyBnZXRQZXJtaXNzaW9ucywgaXNWYWxpZFJlY29yZCwgdmFsaWRhdGVWZW5kb3JQZXJtaXNzaW9ucyB9IGZyb20gIi4vR2xvYmFsL0Z1bmN0aW9ucyI7Cgpjb25zdCBQRVJNSVNTSU9OX0VSUk9SX01FU1NBR0UgPSAiVXNlciBkb2VzIG5vdCBoYXZlIHBlcm1pc3Npb25zIHRvIHBlcmZvcm0gdGhpcyBhY3Rpb24uIFBsZWFzZSBjb250YWN0IHlvdXIgYWRtaW5pc3RyYXRvci4iOwoKZXhwb3J0IGNvbnN0IGJlZm9yZUxvYWQgPSAocENvbnRleHQ6IEVudHJ5UG9pbnRzLlVzZXJFdmVudC5iZWZvcmVMb2FkQ29udGV4dCkgPT4gewogICAgY29uc3QgeyBuZXdSZWNvcmQsIHR5cGUsIFVzZXJFdmVudFR5cGUgfSA9IHBDb250ZXh0OwoKICAgIGNvbnN0IHsgdHlwZTogcmVjb3JkVHlwZSB9ID0gbmV3UmVjb3JkOwoKICAgIGNvbnN0IGlzVmlld01vZGUgPSB0eXBlID09PSBVc2VyRXZlbnRUeXBlLlZJRVc7CiAgICBjb25zdCBpc0VkaXRNb2RlID0gdHlwZSA9PT0gVXNlckV2ZW50VHlwZS5FRElUOwogICAgY29uc3QgaXNDcmVhdGVNb2RlID0gdHlwZSA9PT0gVXNlckV2ZW50VHlwZS5DUkVBVEU7CgogICAgbG9nLmRlYnVnKCJbYmVmb3JlTG9hZF0gcmVjb3JkVHlwZSAtIGlzVmlld01vZGUgLSBpc0VkaXRNb2RlIiwgYCR7cmVjb3JkVHlwZX0gLSAke2lzVmlld01vZGV9IC0gJHtpc0VkaXRNb2RlfWApOwoKICAgIGNvbnN0IHBlcm1pc3Npb25zID0gZ2V0UGVybWlzc2lvbnMoKTsKCiAgICBsb2cuZGVidWcoIltiZWZvcmVMb2FkXSBwZXJtaXNzaW9ucyIsIHBlcm1pc3Npb25zKTsKCiAgICBpZiAoIWlzVmFsaWRSZWNvcmQocmVjb3JkVHlwZSkgfHwgKHBlcm1pc3Npb25zICYmICFwZXJtaXNzaW9ucy5pc192ZW5kb3JfZW5hYmxlZCkpIHsKICAgICAgICByZXR1cm47CiAgICB9CgogICAgaWYgKCFwZXJtaXNzaW9ucykgewogICAgICAgIHRocm93IFBFUk1JU1NJT05fRVJST1JfTUVTU0FHRTsKICAgIH0KCiAgICBpZiAocmVjb3JkVHlwZSA9PT0gcmVjb3JkLlR5cGUuVkVORE9SICYmIChpc1ZpZXdNb2RlIHx8IGlzRWRpdE1vZGUpKSB7CiAgICAgICAgdmFsaWRhdGVWZW5kb3JQZXJtaXNzaW9ucyhwZXJtaXNzaW9ucywgbmV3UmVjb3JkLmlkIHx8IG51bGwsIHRocm93RXJyb3IpOwogICAgfSBlbHNlIGlmICgKICAgICAgICAocmVjb3JkVHlwZSA9PT0gcmVjb3JkLlR5cGUuVkVORE9SX0JJTEwgfHwgcmVjb3JkVHlwZSA9PT0gcmVjb3JkLlR5cGUuVkVORE9SX1BBWU1FTlQpICYmCiAgICAgICAgKGlzVmlld01vZGUgfHwgaXNFZGl0TW9kZSB8fCBpc0NyZWF0ZU1vZGUpCiAgICApIHsKICAgICAgICBjb25zdCB2ZW5kb3JJZCA9IG5ld1JlY29yZC5nZXRWYWx1ZSh7IGZpZWxkSWQ6ICJlbnRpdHkiIH0pIGFzIG51bWJlcjsKCiAgICAgICAgdmFsaWRhdGVWZW5kb3JQZXJtaXNzaW9ucyhwZXJtaXNzaW9ucywgdmVuZG9ySWQgfHwgbnVsbCwgdGhyb3dFcnJvcik7CiAgICB9CgogICAgcmV0dXJuOwp9OwoKZXhwb3J0IGNvbnN0IGJlZm9yZVN1Ym1pdCA9IChwQ29udGV4dDogRW50cnlQb2ludHMuVXNlckV2ZW50LmJlZm9yZVN1Ym1pdENvbnRleHQpID0+IHsKICAgIGNvbnN0IHsgbmV3UmVjb3JkLCB0eXBlLCBVc2VyRXZlbnRUeXBlIH0gPSBwQ29udGV4dDsKCiAgICBjb25zdCB7IHR5cGU6IHJlY29yZFR5cGUgfSA9IG5ld1JlY29yZDsKCiAgICBjb25zdCBpc0VkaXRNb2RlID0gdHlwZSA9PT0gVXNlckV2ZW50VHlwZS5FRElUOwogICAgY29uc3QgaXNDcmVhdGVNb2RlID0gdHlwZSA9PT0gVXNlckV2ZW50VHlwZS5DUkVBVEU7CgogICAgbG9nLmRlYnVnKCJbYmVmb3JlU3VibWl0XSByZWNvcmRUeXBlIC0gaXNDcmVhdGVNb2RlIC0gaXNFZGl0TW9kZSIsIGAke3JlY29yZFR5cGV9IC0gJHtpc0NyZWF0ZU1vZGV9IC0gJHtpc0VkaXRNb2RlfWApOwoKICAgIGNvbnN0IHBlcm1pc3Npb25zID0gZ2V0UGVybWlzc2lvbnMoKTsKCiAgICBsb2cuZGVidWcoIltiZWZvcmVTdWJtaXRdIHBlcm1pc3Npb25zIiwgcGVybWlzc2lvbnMpOwoKICAgIGlmICghaXNWYWxpZFJlY29yZChyZWNvcmRUeXBlKSB8fCAocGVybWlzc2lvbnMgJiYgIXBlcm1pc3Npb25zLmlzX3ZlbmRvcl9lbmFibGVkKSkgewogICAgICAgIHJldHVybjsKICAgIH0KCiAgICBpZiAoIXBlcm1pc3Npb25zKSB7CiAgICAgICAgdGhyb3dFcnJvcigpOwogICAgICAgIHJldHVybjsKICAgIH0KCiAgICBpZiAoKHJlY29yZFR5cGUgPT09IHJlY29yZC5UeXBlLlZFTkRPUl9CSUxMIHx8IHJlY29yZFR5cGUgPT09IHJlY29yZC5UeXBlLlZFTkRPUl9QQVlNRU5UKSAmJiAoaXNFZGl0TW9kZSB8fCBpc0NyZWF0ZU1vZGUpKSB7CiAgICAgICAgY29uc3QgdmVuZG9ySWQgPSBuZXdSZWNvcmQuZ2V0VmFsdWUoeyBmaWVsZElkOiAiZW50aXR5IiB9KSBhcyBudW1iZXI7CgogICAgICAgIHZhbGlkYXRlVmVuZG9yUGVybWlzc2lvbnMocGVybWlzc2lvbnMsIHZlbmRvcklkIHx8IG51bGwsIHRocm93RXJyb3IpOwogICAgfQoKICAgIHJldHVybjsKfTsKCmNvbnN0IHRocm93RXJyb3IgPSAoKSA9PiB7CiAgICB0aHJvdyBQRVJNSVNTSU9OX0VSUk9SX01FU1NBR0U7Cn07Cg==
+/**
+ * @NApiVersion 2.1
+ * @NScriptType UserEventScript
+ * @NModuleScope SameAccount
+ * @author Midware
+ * @developer Ignacio A.
+ * @contact contact@midware.net
+ */
+
+import * as log from "N/log";
+import * as record from "N/record";
+
+import { EntryPoints } from "N/types";
+import { getPermissions, isValidRecord, validateVendorPermissions } from "./Global/Functions";
+
+const PERMISSION_ERROR_MESSAGE = "User does not have permissions to perform this action. Please contact your administrator.";
+
+export const beforeLoad = (pContext: EntryPoints.UserEvent.beforeLoadContext) => {
+    const { newRecord, type, UserEventType } = pContext;
+
+    const { type: recordType } = newRecord;
+
+    const isViewMode = type === UserEventType.VIEW;
+    const isEditMode = type === UserEventType.EDIT;
+    const isCreateMode = type === UserEventType.CREATE;
+
+    log.debug("[beforeLoad] recordType - isViewMode - isEditMode", `${recordType} - ${isViewMode} - ${isEditMode}`);
+
+    const permissions = getPermissions();
+
+    log.debug("[beforeLoad] permissions", permissions);
+
+    if (!isValidRecord(recordType) || (permissions && !permissions.is_vendor_enabled)) {
+        return;
+    }
+
+    if (!permissions) {
+        throw PERMISSION_ERROR_MESSAGE;
+    }
+
+    if (recordType === record.Type.VENDOR && (isViewMode || isEditMode)) {
+        validateVendorPermissions(permissions, newRecord.id || null, throwError);
+    } else if (
+        (recordType === record.Type.VENDOR_BILL || recordType === record.Type.VENDOR_PAYMENT) &&
+        (isViewMode || isEditMode || isCreateMode)
+    ) {
+        const vendorId = newRecord.getValue({ fieldId: "entity" }) as number;
+
+        validateVendorPermissions(permissions, vendorId || null, throwError);
+    }
+
+    return;
+};
+
+export const beforeSubmit = (pContext: EntryPoints.UserEvent.beforeSubmitContext) => {
+    const { newRecord, type, UserEventType } = pContext;
+
+    const { type: recordType } = newRecord;
+
+    const isEditMode = type === UserEventType.EDIT;
+    const isCreateMode = type === UserEventType.CREATE;
+
+    log.debug("[beforeSubmit] recordType - isCreateMode - isEditMode", `${recordType} - ${isCreateMode} - ${isEditMode}`);
+
+    const permissions = getPermissions();
+
+    log.debug("[beforeSubmit] permissions", permissions);
+
+    if (!isValidRecord(recordType) || (permissions && !permissions.is_vendor_enabled)) {
+        return;
+    }
+
+    if (!permissions) {
+        throwError();
+        return;
+    }
+
+    if ((recordType === record.Type.VENDOR_BILL || recordType === record.Type.VENDOR_PAYMENT) && (isEditMode || isCreateMode)) {
+        const vendorId = newRecord.getValue({ fieldId: "entity" }) as number;
+
+        validateVendorPermissions(permissions, vendorId || null, throwError);
+    }
+
+    return;
+};
+
+const throwError = () => {
+    throw PERMISSION_ERROR_MESSAGE;
+};

@@ -1,1 +1,44 @@
-LyoqCiAqIEBOQXBpVmVyc2lvbiAyLjEKICogQE5TY3JpcHRUeXBlIENsaWVudFNjcmlwdAogKiBATk1vZHVsZVNjb3BlIFNhbWVBY2NvdW50CiAqIEBhdXRob3IgTWlkd2FyZQogKiBAZGV2ZWxvcGVyIElnbmFjaW8gQS4KICogQGNvbnRhY3QgY29udGFjdEBtaWR3YXJlLm5ldAogKi8KCmltcG9ydCAqIGFzIGN1cnJlbnRSZWNvcmQgZnJvbSAiTi9jdXJyZW50UmVjb3JkIjsKCmltcG9ydCB7IEVudHJ5UG9pbnRzIH0gZnJvbSAiTi90eXBlcyI7CmltcG9ydCB7IGdldFBlcm1pc3Npb25zLCBoYW5kbGVFcnJvciwgdmFsaWRhdGVWZW5kb3JQZXJtaXNzaW9ucyB9IGZyb20gIi4vR2xvYmFsL0Z1bmN0aW9ucyI7Cgpjb25zdCBQRVJNSVNTSU9OX0VSUk9SX01FU1NBR0UgPSAiWW91IGRvIG5vdCBoYXZlIHBlcm1pc3Npb24gZm9yIHRoaXMgdmVuZG9yIGNhdGVnb3J5IjsKCmV4cG9ydCBmdW5jdGlvbiBmaWVsZENoYW5nZWQocENvbnRleHQ6IEVudHJ5UG9pbnRzLkNsaWVudC5maWVsZENoYW5nZWRDb250ZXh0KSB7CiAgICB0cnkgewogICAgICAgIGNvbnN0IHsgY3VycmVudFJlY29yZCwgZmllbGRJZCB9ID0gcENvbnRleHQ7CgogICAgICAgIGlmIChmaWVsZElkID09ICJlbnRpdHkiKSB7CiAgICAgICAgICAgIGNvbnN0IHBlcm1pc3Npb25zID0gZ2V0UGVybWlzc2lvbnMoKTsKCiAgICAgICAgICAgIGlmICghcGVybWlzc2lvbnMpIHsKICAgICAgICAgICAgICAgIGFsZXJ0VXNlcigpOwoKICAgICAgICAgICAgICAgIHJldHVybjsKICAgICAgICAgICAgfQoKICAgICAgICAgICAgY29uc3QgdmVuZG9ySWQgPSBjdXJyZW50UmVjb3JkLmdldFZhbHVlKHsgZmllbGRJZCB9KSBhcyBudW1iZXI7CgogICAgICAgICAgICB2YWxpZGF0ZVZlbmRvclBlcm1pc3Npb25zKHBlcm1pc3Npb25zLCB2ZW5kb3JJZCwgYWxlcnRVc2VyKTsKICAgICAgICB9CiAgICB9IGNhdGNoIChlcnJvcikgewogICAgICAgIGhhbmRsZUVycm9yKGVycm9yKTsKICAgIH0KfQoKY29uc3QgYWxlcnRVc2VyID0gKCkgPT4gewogICAgYWxlcnQoUEVSTUlTU0lPTl9FUlJPUl9NRVNTQUdFKTsKICAgIGNvbnN0IGNyID0gY3VycmVudFJlY29yZC5nZXQoKTsKCiAgICBjci5zZXRWYWx1ZSh7IGZpZWxkSWQ6ICJlbnRpdHkiLCB2YWx1ZTogbnVsbCwgaWdub3JlRmllbGRDaGFuZ2U6IHRydWUsIGZpcmVTbGF2aW5nU3luYzogdHJ1ZSB9KTsKfTsK
+/**
+ * @NApiVersion 2.1
+ * @NScriptType ClientScript
+ * @NModuleScope SameAccount
+ * @author Midware
+ * @developer Ignacio A.
+ * @contact contact@midware.net
+ */
+
+import * as currentRecord from "N/currentRecord";
+
+import { EntryPoints } from "N/types";
+import { getPermissions, handleError, validateVendorPermissions } from "./Global/Functions";
+
+const PERMISSION_ERROR_MESSAGE = "You do not have permission for this vendor category";
+
+export function fieldChanged(pContext: EntryPoints.Client.fieldChangedContext) {
+    try {
+        const { currentRecord, fieldId } = pContext;
+
+        if (fieldId == "entity") {
+            const permissions = getPermissions();
+
+            if (!permissions) {
+                alertUser();
+
+                return;
+            }
+
+            const vendorId = currentRecord.getValue({ fieldId }) as number;
+
+            validateVendorPermissions(permissions, vendorId, alertUser);
+        }
+    } catch (error) {
+        handleError(error);
+    }
+}
+
+const alertUser = () => {
+    alert(PERMISSION_ERROR_MESSAGE);
+    const cr = currentRecord.get();
+
+    cr.setValue({ fieldId: "entity", value: null, ignoreFieldChange: true, fireSlavingSync: true });
+};
