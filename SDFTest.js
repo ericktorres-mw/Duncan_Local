@@ -1,6 +1,1 @@
-console.log("Test SDF 20");
-//Trigger SDF deployment again
-//Trigger - trigger  - trigger - - - -- -
-//Trigger
-//Test Several commits
-console.log("Test SDF 4");
+Y29uc29sZS5sb2coIlRlc3QgU0RGIDIwIik7Ci8vVHJpZ2dlciBTREYgZGVwbG95bWVudCBhZ2FpbgovL1RyaWdnZXIgLSB0cmlnZ2VyICAtIHRyaWdnZXIgLSAtIC0gLS0gLQovL1RyaWdnZXIKLy9UZXN0IFNldmVyYWwgY29tbWl0cwpjb25zb2xlLmxvZygiVGVzdCBTREYgNCIpOwo=
