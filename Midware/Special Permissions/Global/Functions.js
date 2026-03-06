@@ -45,6 +45,7 @@ define(["require", "exports", "N/log", "N/search", "N/record", "N/runtime"], fun
             _a[record.Type.VENDOR] = true,
             _a[record.Type.VENDOR_BILL] = true,
             _a[record.Type.VENDOR_PAYMENT] = true,
+            _a[record.Type.PURCHASE_ORDER] = true,
             _a);
         return recordType in validRecordTypes;
     };

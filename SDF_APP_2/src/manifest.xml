@@ -8,7 +8,7 @@
     </features>
     <files>
     <file>/SuiteScripts/Cycle/Pruebas netsuite.txt</file> 
-    <file>/SuiteScripts/SDF_APP_2/vscodeExtensionRestletTest.js</file>
+    <file>/SuiteScripts2/SDF_APP_2/vscodeExtensionRestletTemp.js</file>
     </files>
   </dependencies>
 </manifest>

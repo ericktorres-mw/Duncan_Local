@@ -11,9 +11,9 @@ import * as log from "N/log";
 import * as record from "N/record";
 
 import { EntryPoints } from "N/types";
-import { getPermissions, isValidRecord, validateVendorPermissions } from "./Global/Functions";
+import { getPermissions, isValidRecord, Permissions, validateVendorPermissions } from "./Global/Functions";
 
-const PERMISSION_ERROR_MESSAGE = "User does not have permissions to perform this action. Please contact your administrator.";
+const PERMISSION_ERROR_MESSAGE = "User does not have permissions to perform this action due to vendor category restrictions. Please contact your administrator.";
 
 export const beforeLoad = (pContext: EntryPoints.UserEvent.beforeLoadContext) => {
     const { newRecord, type, UserEventType } = pContext;
@@ -24,7 +24,11 @@ export const beforeLoad = (pContext: EntryPoints.UserEvent.beforeLoadContext) =>
     const isEditMode = type === UserEventType.EDIT;
     const isCreateMode = type === UserEventType.CREATE;
 
-    log.debug("[beforeLoad] recordType - isViewMode - isEditMode", `${recordType} - ${isViewMode} - ${isEditMode}`);
+    log.debug("[beforeLoad] recordType - mode", `${recordType} - ${type}`);
+
+    if (!isValidRecord(recordType)) {
+        return;
+    }
 
     const permissions = getPermissions();
 
@@ -38,16 +42,7 @@ export const beforeLoad = (pContext: EntryPoints.UserEvent.beforeLoadContext) =>
         throw PERMISSION_ERROR_MESSAGE;
     }
 
-    if (recordType === record.Type.VENDOR && (isViewMode || isEditMode)) {
-        validateVendorPermissions(permissions, newRecord.id || null, throwError);
-    } else if (
-        (recordType === record.Type.VENDOR_BILL || recordType === record.Type.VENDOR_PAYMENT) &&
-        (isViewMode || isEditMode || isCreateMode)
-    ) {
-        const vendorId = newRecord.getValue({ fieldId: "entity" }) as number;
-
-        validateVendorPermissions(permissions, vendorId || null, throwError);
-    }
+    vendorValidations(newRecord, recordType, isViewMode, isEditMode, isCreateMode, permissions);
 
     return;
 };
@@ -75,13 +70,40 @@ export const beforeSubmit = (pContext: EntryPoints.UserEvent.beforeSubmitContext
         return;
     }
 
-    if ((recordType === record.Type.VENDOR_BILL || recordType === record.Type.VENDOR_PAYMENT) && (isEditMode || isCreateMode)) {
+    if (
+        (recordType === record.Type.VENDOR_BILL ||
+            recordType === record.Type.VENDOR_PAYMENT ||
+            recordType === record.Type.PURCHASE_ORDER) &&
+        (isEditMode || isCreateMode)
+    ) {
         const vendorId = newRecord.getValue({ fieldId: "entity" }) as number;
 
         validateVendorPermissions(permissions, vendorId || null, throwError);
     }
 
     return;
+};
+
+const vendorValidations = (
+    pRecord: record.Record,
+    recordType: string,
+    isViewMode: boolean,
+    isEditMode: boolean,
+    isCreateMode: boolean,
+    permissions: Permissions
+) => {
+    if (recordType === record.Type.VENDOR && (isViewMode || isEditMode)) {
+        validateVendorPermissions(permissions, pRecord.id || null, throwError);
+    } else if (
+        (recordType === record.Type.VENDOR_BILL ||
+            recordType === record.Type.VENDOR_PAYMENT ||
+            recordType === record.Type.PURCHASE_ORDER) &&
+        (isViewMode || isEditMode || isCreateMode)
+    ) {
+        const vendorId = pRecord.getValue({ fieldId: "entity" }) as number;
+
+        validateVendorPermissions(permissions, vendorId || null, throwError);
+    }
 };
 
 const throwError = () => {
