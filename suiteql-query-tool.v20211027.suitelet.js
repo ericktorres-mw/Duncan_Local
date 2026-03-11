@@ -2690,6 +2690,3 @@ function workbooksGet( context ) {
 	context.response.write( JSON.stringify( responsePayload, null, 5 ) );
 
 }
-
-
-
