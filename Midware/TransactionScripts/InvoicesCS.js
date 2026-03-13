@@ -43,7 +43,6 @@ define(["require", "exports", "N/log"], function (require, exports, log) {
             handleError(error);
         }
     }
-    
     exports.validateInsert = validateInsert;
     function fieldChanged(pContext) {
         try {
@@ -70,7 +69,6 @@ define(["require", "exports", "N/log"], function (require, exports, log) {
             handleError(error);
         }
     }
-
     exports.fieldChanged = fieldChanged;
     function handleError(pError) {
         log.error({ title: "Error", details: pError.message });

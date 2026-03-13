@@ -126,7 +126,7 @@ define(["N/file", "N/search", "N/record"], function (file, search, record) {
       }
       return true;
     });
-    // In case of empty folder return the name
+    // In case of empty folder return the name.
     if (files.length == 0) {
       files.push({
         type: "folder",
@@ -252,7 +252,3 @@ define(["N/file", "N/search", "N/record"], function (file, search, record) {
     delete: deleteFunc,
   };
 });
-
-
-
-
