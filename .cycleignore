@@ -1,0 +1,39 @@
+# IMPORTANT
+# This file defines the tracking scope in the NetSuite File Cabinet.
+# Do not delete this file, and only modify it when required.
+# Changing tracked directories will create a new baseline.
+# Changing file extension filters will not.
+
+# Exclude all File Cabinet content by default
+/*
+
+# Include SuiteScripts
+!/SuiteScripts/**
+
+# Include website and SSP assets
+!/Web Site Hosting Files/**
+
+# Include templates
+!/Templates/**
+
+# Exclude common document and binary files
+**/*.pdf
+**/*.doc
+**/*.docx
+**/*.xls
+**/*.xlsx
+**/*.ppt
+**/*.pptx
+**/*.rtf
+**/*.zip
+**/*.tar
+**/*.gz
+**/*.tgz
+**/*.tbz
+**/*.mp3
+**/*.mp4
+**/*.mov
+**/*.mpeg
+**/*.mpg
+**/*.avi
+**/*.bin
