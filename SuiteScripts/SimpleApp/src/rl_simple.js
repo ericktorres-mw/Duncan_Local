@@ -11,13 +11,45 @@
  * why the HTML render lives in simple_logic.js — a plain library — and
  * both scripts consume it identically.
  */
-define(["./lib/simple_logic"], function (simpleLogic) {
+define(["./lib/simple_logic", "N/search"], function (simpleLogic, search) {
+  function recentSalesOrders(args) {
+    var limit = Math.min(Math.max(parseInt((args && args.limit) || 10, 10) || 10, 1), 50);
+    var soSearch = search.create({
+      type: search.Type.SALES_ORDER,
+      filters: [["mainline", "is", "T"]],
+      columns: [
+        search.createColumn({ name: "tranid" }),
+        search.createColumn({ name: "trandate", sort: search.Sort.DESC }),
+        search.createColumn({ name: "entity" }),
+        search.createColumn({ name: "statusref" }),
+        search.createColumn({ name: "total" }),
+        search.createColumn({ name: "currency" })
+      ]
+    });
+    var rows = soSearch.run().getRange({ start: 0, end: limit });
+    var orders = rows.map(function (row) {
+      return {
+        tranid: row.getValue("tranid") || null,
+        trandate: row.getValue("trandate") || null,
+        customer: row.getText("entity") || row.getValue("entity") || null,
+        status: row.getText("statusref") || row.getValue("statusref") || null,
+        total: parseFloat(row.getValue("total") || "0"),
+        currency: row.getText("currency") || row.getValue("currency") || null
+      };
+    });
+    var totalAmount = orders.reduce(function (acc, o) {
+      return acc + (isNaN(o.total) ? 0 : o.total);
+    }, 0);
+    return { count: orders.length, totalAmount: totalAmount, orders: orders };
+  }
+
   var handlers = {
     get_greeting: simpleLogic.getGreeting,
     reverse_text: simpleLogic.reverseText,
     get_suitelet: function (args) {
       return { html: simpleLogic.renderPage(args || {}) };
-    }
+    },
+    recent_sales_orders: recentSalesOrders
   };
 
   function dispatch(body) {

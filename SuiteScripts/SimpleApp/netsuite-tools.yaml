@@ -44,6 +44,48 @@ restlets:
           - args: { text: hello }
             result: { reversed: olleh }
 
+      - name: recent_sales_orders
+        description: |
+          Returns the most recent N sales orders (default 10, max 50) with their
+          totals, customer, status, and currency. Use to inspect recent activity
+          or compute a quick aggregate amount across the latest orders.
+        inputSchema:
+          type: object
+          properties:
+            limit:
+              type: integer
+              minimum: 1
+              maximum: 50
+              description: Number of recent orders to fetch (default 10, max 50)
+        outputSchema:
+          type: object
+          properties:
+            count: { type: integer }
+            totalAmount: { type: number }
+            orders:
+              type: array
+              items:
+                type: object
+                properties:
+                  tranid: { type: string }
+                  trandate: { type: string }
+                  customer: { type: string }
+                  status: { type: string }
+                  total: { type: number }
+                  currency: { type: string }
+        examples:
+          - args: { limit: 3 }
+            result:
+              count: 3
+              totalAmount: 12345.67
+              orders:
+                - tranid: "SO123"
+                  trandate: "4/27/2026"
+                  customer: "Acme Inc."
+                  status: "Pending Approval"
+                  total: 1234.56
+                  currency: "USD"
+
       - name: get_suitelet
         description: |
           Returns the exact HTML the SimpleApp Suitelet would render.
