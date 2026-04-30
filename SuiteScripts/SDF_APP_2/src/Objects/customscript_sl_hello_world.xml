@@ -1,5 +1,5 @@
 <suitelet scriptid="customscript_sl_hello_world">
-  <description>Simple Hello World Suitelet</description>
+  <description>Simple Hello World Suitelet - deploy test 2026-04-30</description>
   <isinactive>F</isinactive>
   <name>Hello World Suitelet</name>
   <notifyadmins>F</notifyadmins>
